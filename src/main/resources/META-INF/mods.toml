@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+issueTrackerURL="https://github.com/AdvancedJukebox/issues"
+[[mods]]
+modId="advanced_jukebox"
+version="${file.jarVersion}"
+displayName="Advanced Jukebox"
+updateJSONURL=""
+displayURL="https://github.com/AdvancedJukebox/issues"
+logoFile=""
+credits="sedmelluq"
+authors="su226"
+description='''
+Adds a jukebox that supports vanilla and modded records, Netease Music (a Chinese online music service) and custom HTTP URLs.
+Includes MP3, WAV and many other codecs. (Powered by sedmelluq's LavaPlayer)
+If used in multiplayer, everyone can hear it.
+Primarily written for my own server.'''
+[[dependencies.advanced_jukebox]]
+  modId="forge"
+  mandatory=true
+  versionRange="[36,)"
+  ordering="NONE"
+  side="BOTH"
+[modproperties.advanced_jukebox]
+  configuredBackground="minecraft:textures/block/jukebox_side.png"
